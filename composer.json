@@ -1,0 +1,26 @@
+{
+    "name": "magna/contact",
+    "description": "Send email and save to database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Magna\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JanMag",
+            "email": "a3xi33@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Magna\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
