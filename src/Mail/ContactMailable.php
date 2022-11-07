@@ -31,21 +31,6 @@ class ContactMailable extends Mailable {
         $this->email = $email;
     }
 
-    /*
-      public function envelope() {
-      return new Envelope(
-      subject: 'Contact Mailable',
-      );
-      }
-
-
-      public function content() {
-      return new Content(
-      markdown: 'contact.email',
-      );
-      }
-     */
-
     /**
      * Get the attachments for the message.
      *
