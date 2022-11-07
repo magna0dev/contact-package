@@ -11,7 +11,7 @@
         </div>
         <div>
             <form name="contact" action="{{route('contact')}}" method="post">
-                <!--@csrf-->
+                @csrf
                 <input type="text" name="name" placeholder="your name here .." />
                 <br>
                 <br>
