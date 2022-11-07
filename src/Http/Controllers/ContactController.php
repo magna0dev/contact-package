@@ -33,7 +33,7 @@ class ContactController extends Controller {
                                 $request->email
         ));
 
-        Contact::create($request->all()); // komplet data ulozi do DB
+        Contact::create($request->all()); // full data set to db
         // return $request->all();
         return redirect(route('contact'))->with('status', 'EMAIL and data OK!');
     }
