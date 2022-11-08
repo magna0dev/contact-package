@@ -21,7 +21,7 @@
 
 ### (RootFolder)
 ### >> $php artisan vendor:publish
-### ande next select number with package name magna\contact and enter
+### and next select number with package name magna\contact and enter
 
 ### >> $composer dump-autoload
 ### >> $php artisan migrate
